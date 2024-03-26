@@ -1,5 +1,5 @@
-use dojo_starter::models::moves::Direction;
-use dojo_starter::models::position::Position;
+use realm_of_ra::models::moves::Direction;
+use realm_of_ra::models::position::Position;
 
 // define the interface
 #[dojo::interface]
@@ -14,7 +14,7 @@ mod actions {
     use super::{IActions, next_position};
 
     use starknet::{ContractAddress, get_caller_address};
-    use dojo_starter::models::{position::{Position, Vec2}, moves::{Moves, Direction}};
+    use realm_of_ra::models::{position::{Position, Vec2}, moves::{Moves, Direction}};
 
     // declaring custom event struct
     #[event]

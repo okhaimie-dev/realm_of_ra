@@ -4,7 +4,7 @@ class_hash = "0x799bc4e9da10bfb3dd88e6f223c9cfbf7745435cd14f5d69675ea448e578cd"
 address = "0x446f1f19ba951b59935df72974f8ba6060e5fbb411ca21d3e3e3812e3eb8df8"
 transaction_hash = "0x655dac51bc3d07b9963a62c5eef4caf15b2bf1f379227faf54177ff6b458a2e"
 block_number = 3
-seed = "dojo_starter"
+seed = "realm_of_ra"
 name = "dojo::world::world"
 
 [base]
@@ -20,12 +20,12 @@ abi = "abis/deployments/KATANA/contracts/actions.json"
 reads = []
 writes = []
 computed = []
-name = "dojo_starter::systems::actions::actions"
+name = "realm_of_ra::systems::actions::actions"
 
 [[models]]
 kind = "DojoModel"
 class_hash = "0xf00737ffe57c5c931bfec9a7ea66f76d5eaae12cacca6952dcee0c2e3d8038"
-name = "dojo_starter::systems::actions::actions::moved"
+name = "realm_of_ra::systems::actions::actions::moved"
 
 [[models.members]]
 name = "player"
@@ -40,7 +40,7 @@ key = false
 [[models]]
 kind = "DojoModel"
 class_hash = "0x23c28dcfad6be01ca6509fdb35fd2bed6622238397613c60da5d387a43c38d0"
-name = "dojo_starter::models::moves::moves"
+name = "realm_of_ra::models::moves::moves"
 
 [[models.members]]
 name = "player"
@@ -60,7 +60,7 @@ key = false
 [[models]]
 kind = "DojoModel"
 class_hash = "0x2e9c42b868b520d54bff1b7f4c9b91f39bb2e2ad1c39d6484fb5d8a95382e01"
-name = "dojo_starter::models::position::position"
+name = "realm_of_ra::models::position::position"
 
 [[models.members]]
 name = "player"

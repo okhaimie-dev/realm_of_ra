@@ -4,4 +4,4 @@ abi = "abis/base/contracts/actions.json"
 reads = []
 writes = []
 computed = []
-name = "dojo_starter::systems::actions::actions"
+name = "realm_of_ra::systems::actions::actions"
